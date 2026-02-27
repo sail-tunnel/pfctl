@@ -60,6 +60,7 @@ check_deps() {
             error "请手动安装: ${missing[*]}"
         fi
     fi
+    return 0
 }
 
 # ---- 安装 ----
